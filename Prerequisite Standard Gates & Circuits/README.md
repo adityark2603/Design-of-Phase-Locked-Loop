@@ -1,4 +1,4 @@
-# Prerequisite Standard Gates
+# Prerequisite Standard Gates & Circuits
 ### 1. <ins>AND Gate:</ins> 
 An AND gate outputs high only when all its inputs are high. In 45nm CMOS, it benefits from low power and fast switching, serving as a fundamental building block in digital logic circuits.
 
