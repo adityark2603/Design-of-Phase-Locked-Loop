@@ -14,4 +14,4 @@ Refer Directory: [Prerequisite Standard Gates & Circuits](https://github.com/adi
 
 ### <ins> Role of CP in PLL: </ins>
 1. Converts Error Signal: It converts the digital phase/frequency error pulses from the detector into analog current pulses.
-2. Generates Control Voltage: It pumps the error current into the loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
+2. Generates Control Voltage: It pumps the error current into loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
