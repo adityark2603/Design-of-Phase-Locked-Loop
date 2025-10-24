@@ -13,5 +13,5 @@ Refer Directory: [Prerequisite Standard Gates & Circuits](https://github.com/adi
 2. Digital D-type flip-flops (DFFs) are used in a typical PFD implementation, for robust operation under low voltage (1.0–1.2V) and high-speed switching in the 45nm process node.
 
 ### <ins> Role of CP in PLL: </ins>
-1. Converts Error Signal: It converts the digital phase/frequency error pulses from the detector into analog current pulses.
-2. Generates Control Voltage: It pumps the error current into loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
+1. It converts the digital phase/frequency error pulses from the detector into analog current pulses.
+2. It pumps the error current into loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
