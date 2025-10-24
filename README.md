@@ -11,3 +11,7 @@ Refer Directory: [Prerequisite Standard Gates & Circuits](https://github.com/adi
 ### <ins> Role of PFD in PLL: </ins>
 1. The PFD operates by receiving two input signals (reference and divider outputs), and its output transitions help detect both phase and frequency differences.​
 2. Digital D-type flip-flops (DFFs) are used in a typical PFD implementation, for robust operation under low voltage (1.0–1.2V) and high-speed switching in the 45nm process node.
+
+### <ins> Role of CP in PLL: </ins>
+1. Converts Error Signal: It converts the digital phase/frequency error pulses from the detector into analog current pulses.
+2. Generates Control Voltage: It pumps the error current into the loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
