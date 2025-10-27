@@ -14,4 +14,9 @@ Refer Directory: [Prerequisite Standard Gates & Circuits](https://github.com/adi
 
 ### <ins> Role of CP in PLL: </ins>
 1. It converts the digital phase/frequency error pulses from the detector into analog current pulses.
-2. It pumps the error current into loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
+2. It pumps the error current into the loop filter, which integrates it to produce the smooth DC control voltage ($\boldsymbol{V}_{\mathbf{c}}$) that tunes the VCO frequency.
+
+### <ins> Role of CSVCO in PLL:</ins>
+1. The current-starved VCO’s oscillation frequency is controlled by the bias current, allowing precise tuning of the output frequency in response to the control voltage from the PLL.
+2. It limits the current through the delay stages, reducing overall power consumption compared to a regular ring VCO.
+3. Its design is compact and fully CMOS-compatible, making it ideal for on-chip PLL implementations.
