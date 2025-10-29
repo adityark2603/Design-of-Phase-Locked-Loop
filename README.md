@@ -20,3 +20,8 @@ Refer Directory: [Prerequisite Standard Gates & Circuits](https://github.com/adi
 1. The current-starved VCO’s oscillation frequency is controlled by the bias current, allowing precise tuning of the output frequency in response to the control voltage from the PLL.
 2. It limits the current through the delay stages, reducing overall power consumption compared to a regular ring VCO.
 3. Its design is compact and fully CMOS-compatible, making it ideal for on-chip PLL implementations.
+
+### <ins> Role of AD in PLL:</ins>
+1. Frequency Division: It divides the VCO output frequency by a programmable factor to generate a lower frequency for comparison with the reference clock in the phase detector.
+2. Wide Frequency Range: Enables the PLL to lock onto a much higher VCO frequency while maintaining a manageable reference frequency.
+3. Reduced Power and Area: Asynchronous (ripple) dividers are simpler and consume less power compared to synchronous dividers, making them suitable for high-frequency applications.
