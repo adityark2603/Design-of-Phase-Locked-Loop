@@ -1,7 +1,7 @@
 # Asynchronous Divider 
 The Asynchronous Divider (AD), also known as a ripple counter, is a crucial digital frequency divider used in Phase-Locked Loops (PLLs) to scale down the high-frequency output of the Voltage Controlled Oscillator (VCO) before it is fed back to the Phase Frequency Detector (PFD). It allows the PLL to lock onto a fraction of the VCO frequency, thereby enabling frequency synthesis and clock generation for various applications.
 
-## <ins>Key Features:</ins>
+### <ins>Key Features:</ins>
   - **Frequency Division (÷N):**
 The asynchronous divider reduces the input frequency by a programmable integer factor 
 𝑁
